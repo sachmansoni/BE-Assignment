@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ======== Meta ======== -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sachman Singh — Aspiring Software Engineer. Portfolio showcasing skills, projects, education, and achievements." />
+  <meta name="author" content="Sachman Singh" />
+
+  <title>Sachman Singh | Portfolio</title>
+
+  <!-- ======== Stylesheet ======== -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body id="top">
+
+  <!-- ============================================================
+       1. NAVIGATION BAR
+       ============================================================ -->
+  <header class="navbar" role="banner">
+    <nav class="container" aria-label="Primary navigation">
+
+      <!-- Logo / Name -->
+      <a href="#top" class="navbar__logo">Sachman Singh</a>
+
+      <!-- Hamburger toggle (CSS-only, no JS) -->
+      <label for="nav-toggle" class="navbar__hamburger" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <input type="checkbox" id="nav-toggle" class="navbar__toggle" aria-hidden="true" />
+
+      <!-- Links -->
+      <div class="navbar__links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- ============================================================
+       2. HERO SECTION
+       ============================================================ -->
+  <section class="hero" id="hero">
+    <div class="container">
+
+      <!-- Initials icon instead of photo -->
+      <div class="hero__icon" aria-hidden="true">SS</div>
+
+      <p class="hero__greeting">Hello, I'm</p>
+      <h1 class="hero__name">Sachman Singh</h1>
+      <p class="hero__title">Aspiring Software Engineer</p>
+      <p class="hero__intro">
+        A passionate computer science student dedicated to building clean, efficient,
+        and scalable software solutions. Eager to apply modern development practices
+        and grow through real-world engineering challenges.
+      </p>
+
+      <div class="hero__buttons">
+        <a href="#" class="btn btn--primary">Download Resume</a>
+        <a href="#contact" class="btn btn--outline">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       MAIN CONTENT
+       ============================================================ -->
+  <main>
+
+    <!-- ============================================================
+         3. ABOUT ME
+         ============================================================ -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section__title">About Me</h2>
+        <div class="section__line"></div>
+        <p class="section__subtitle">A quick look at who I am, my background, and what drives me.</p>
+
+        <div class="about__grid">
+          <!-- Left — Summary & Objective -->
+          <div class="about__text">
+            <h3>Professional Summary</h3>
+            <p>
+              I am a motivated computer science undergraduate with a strong foundation in
+              programming, data structures, algorithms, and web development. I enjoy solving
+              complex problems and am constantly exploring new technologies to broaden my skill set.
+            </p>
+
+            <h3>Career Objective</h3>
+            <p>
+              To secure a challenging position as a software engineer where I can leverage my
+              technical skills, contribute to innovative projects, and grow alongside a team
+              of talented professionals.
+            </p>
+          </div>
+
+          <!-- Right — Personal Info Cards -->
+          <div class="about__info-grid">
+            <div class="about__info-item">
+              <p class="about__info-label">Full Name</p>
+              <p class="about__info-value">Sachman Singh</p>
+            </div>
+            <div class="about__info-item">
+              <p class="about__info-label">Degree</p>
+              <p class="about__info-value">B.Tech CSE</p>
+            </div>
+            <div class="about__info-item">
+              <p class="about__info-label">Graduation</p>
+              <p class="about__info-value">2028 (Expected)</p>
+            </div>
+            <div class="about__info-item">
+              <p class="about__info-label">Location</p>
+              <p class="about__info-value">India</p>
+            </div>
+            <div class="about__info-item">
+              <p class="about__info-label">Email</p>
+              <p class="about__info-value">sachman@email.com</p>
+            </div>
+            <div class="about__info-item">
+              <p class="about__info-label">Languages</p>
+              <p class="about__info-value">English, Hindi</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         4. SKILLS
+         ============================================================ -->
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <h2 class="section__title">Skills</h2>
+        <div class="section__line"></div>
+        <p class="section__subtitle">Technologies and tools I work with, organized by category.</p>
+
+        <div class="skills__grid">
+          <!-- Programming Languages -->
+          <article class="card skill-card">
+            <h3 class="skill-card__header">Programming Languages</h3>
+            <div class="skill-card__list">
+              <span class="tag">C</span>
+              <span class="tag">C++</span>
+              <span class="tag">Java</span>
+              <span class="tag">Python</span>
+              <span class="tag">JavaScript</span>
+            </div>
+          </article>
+
+          <!-- Frontend -->
+          <article class="card skill-card">
+            <h3 class="skill-card__header">Frontend</h3>
+            <div class="skill-card__list">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">React</span>
+              <span class="tag">Bootstrap</span>
+            </div>
+          </article>
+
+          <!-- Backend -->
+          <article class="card skill-card">
+            <h3 class="skill-card__header">Backend</h3>
+            <div class="skill-card__list">
+              <span class="tag">Node.js</span>
+              <span class="tag">Express.js</span>
+              <span class="tag">REST APIs</span>
+              <span class="tag">Python Flask</span>
+            </div>
+          </article>
+
+          <!-- Databases -->
+          <article class="card skill-card">
+            <h3 class="skill-card__header">Databases</h3>
+            <div class="skill-card__list">
+              <span class="tag">MySQL</span>
+              <span class="tag">MongoDB</span>
+              <span class="tag">PostgreSQL</span>
+            </div>
+          </article>
+
+          <!-- Tools -->
+          <article class="card skill-card">
+            <h3 class="skill-card__header">Tools</h3>
+            <div class="skill-card__list">
+              <span class="tag">VS Code</span>
+              <span class="tag">Postman</span>
+              <span class="tag">Figma</span>
+              <span class="tag">Linux</span>
+              <span class="tag">Docker</span>
+            </div>
+          </article>
+
+          <!-- Version Control -->
+          <article class="card skill-card">
+            <h3 class="skill-card__header">Version Control</h3>
+            <div class="skill-card__list">
+              <span class="tag">Git</span>
+              <span class="tag">GitHub</span>
+              <span class="tag">GitLab</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         5. PROJECTS
+         ============================================================ -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section__title">Projects</h2>
+        <div class="section__line"></div>
+        <p class="section__subtitle">A selection of projects I have built to sharpen my development skills.</p>
+
+        <div class="projects__grid">
+
+          <!-- Project 1 -->
+          <article class="card project-card">
+            <div class="project-card__icon" aria-hidden="true">01</div>
+            <h3 class="project-card__title">Analytics Dashboard</h3>
+            <p class="project-card__desc">
+              A full-stack web dashboard for visualizing real-time analytics data with
+              interactive charts, user authentication, and a RESTful API backend.
+            </p>
+            <div class="project-card__tags">
+              <span class="tag">React</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">MongoDB</span>
+              <span class="tag">Chart.js</span>
+            </div>
+            <div class="project-card__links">
+              <a href="#" class="btn btn--primary btn--sm">GitHub</a>
+              <a href="#" class="btn btn--outline btn--sm">Live Demo</a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="card project-card">
+            <div class="project-card__icon" aria-hidden="true">02</div>
+            <h3 class="project-card__title">E-Commerce Platform</h3>
+            <p class="project-card__desc">
+              A responsive e-commerce website with product listings, shopping cart,
+              order management, and integrated payment gateway functionality.
+            </p>
+            <div class="project-card__tags">
+              <span class="tag">HTML/CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Express.js</span>
+              <span class="tag">MySQL</span>
+            </div>
+            <div class="project-card__links">
+              <a href="#" class="btn btn--primary btn--sm">GitHub</a>
+              <a href="#" class="btn btn--outline btn--sm">Live Demo</a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="card project-card">
+            <div class="project-card__icon" aria-hidden="true">03</div>
+            <h3 class="project-card__title">Weather Forecast App</h3>
+            <p class="project-card__desc">
+              A clean weather application that fetches live data from a public API,
+              displaying current conditions and a 5-day forecast with location search.
+            </p>
+            <div class="project-card__tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">REST API</span>
+              <span class="tag">CSS3</span>
+            </div>
+            <div class="project-card__links">
+              <a href="#" class="btn btn--primary btn--sm">GitHub</a>
+              <a href="#" class="btn btn--outline btn--sm">Live Demo</a>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="card project-card">
+            <div class="project-card__icon" aria-hidden="true">04</div>
+            <h3 class="project-card__title">Task Manager App</h3>
+            <p class="project-card__desc">
+              A productivity-focused task management tool with a Kanban-style board,
+              drag-and-drop support, priority labels, and persistent local storage.
+            </p>
+            <div class="project-card__tags">
+              <span class="tag">React</span>
+              <span class="tag">Firebase</span>
+              <span class="tag">CSS Modules</span>
+            </div>
+            <div class="project-card__links">
+              <a href="#" class="btn btn--primary btn--sm">GitHub</a>
+              <a href="#" class="btn btn--outline btn--sm">Live Demo</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         6. EDUCATION
+         ============================================================ -->
+    <section class="section section--alt" id="education">
+      <div class="container">
+        <h2 class="section__title">Education</h2>
+        <div class="section__line"></div>
+        <p class="section__subtitle">My academic journey and qualifications.</p>
+
+        <div class="education__grid">
+
+          <!-- Education 1 -->
+          <article class="card education-card">
+            <span class="education-card__year">2024 – 2028 (Expected)</span>
+            <h3 class="education-card__degree">Bachelor of Technology – Computer Science</h3>
+            <p class="education-card__school">University Name, City</p>
+            <p class="education-card__details">
+              Pursuing B.Tech in Computer Science and Engineering with coursework in
+              Data Structures, Algorithms, DBMS, Operating Systems, and Software Engineering.
+            </p>
+          </article>
+
+          <!-- Education 2 -->
+          <article class="card education-card">
+            <span class="education-card__year">2022 – 2024</span>
+            <h3 class="education-card__degree">Senior Secondary (XII) – Science</h3>
+            <p class="education-card__school">School Name, City</p>
+            <p class="education-card__details">
+              Completed Class XII with a focus on Physics, Chemistry, Mathematics,
+              and Computer Science. Scored XX% in board examinations.
+            </p>
+          </article>
+
+          <!-- Education 3 -->
+          <article class="card education-card">
+            <span class="education-card__year">2021 – 2022</span>
+            <h3 class="education-card__degree">Secondary (X)</h3>
+            <p class="education-card__school">School Name, City</p>
+            <p class="education-card__details">
+              Completed Class X under CBSE / State Board with distinction.
+              Scored XX% in board examinations.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         7. CERTIFICATIONS
+         ============================================================ -->
+    <section class="section" id="certifications">
+      <div class="container">
+        <h2 class="section__title">Certifications</h2>
+        <div class="section__line"></div>
+        <p class="section__subtitle">Professional certifications I have earned.</p>
+
+        <div class="certifications__grid">
+
+          <!-- Cert 1 -->
+          <article class="card cert-card">
+            <div class="cert-card__icon" aria-hidden="true">&#9733;</div>
+            <h3 class="cert-card__name">Full-Stack Web Development</h3>
+            <p class="cert-card__org">Udemy</p>
+            <p class="cert-card__year">2025</p>
+          </article>
+
+          <!-- Cert 2 -->
+          <article class="card cert-card">
+            <div class="cert-card__icon" aria-hidden="true">&#9733;</div>
+            <h3 class="cert-card__name">Python for Data Science</h3>
+            <p class="cert-card__org">Coursera (IBM)</p>
+            <p class="cert-card__year">2025</p>
+          </article>
+
+          <!-- Cert 3 -->
+          <article class="card cert-card">
+            <div class="cert-card__icon" aria-hidden="true">&#9733;</div>
+            <h3 class="cert-card__name">Java Programming Masterclass</h3>
+            <p class="cert-card__org">Udemy</p>
+            <p class="cert-card__year">2024</p>
+          </article>
+
+          <!-- Cert 4 -->
+          <article class="card cert-card">
+            <div class="cert-card__icon" aria-hidden="true">&#9733;</div>
+            <h3 class="cert-card__name">AWS Cloud Foundations</h3>
+            <p class="cert-card__org">AWS Academy</p>
+            <p class="cert-card__year">2025</p>
+          </article>
+
+          <!-- Cert 5 -->
+          <article class="card cert-card">
+            <div class="cert-card__icon" aria-hidden="true">&#9733;</div>
+            <h3 class="cert-card__name">SQL for Data Analysis</h3>
+            <p class="cert-card__org">HackerRank</p>
+            <p class="cert-card__year">2024</p>
+          </article>
+
+          <!-- Cert 6 -->
+          <article class="card cert-card">
+            <div class="cert-card__icon" aria-hidden="true">&#9733;</div>
+            <h3 class="cert-card__name">Git &amp; GitHub Essentials</h3>
+            <p class="cert-card__org">LinkedIn Learning</p>
+            <p class="cert-card__year">2024</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         8. ACHIEVEMENTS
+         ============================================================ -->
+    <section class="section section--alt" id="achievements">
+      <div class="container">
+        <h2 class="section__title">Achievements</h2>
+        <div class="section__line"></div>
+        <p class="section__subtitle">Milestones and recognitions I am proud of.</p>
+
+        <div class="achievements__grid">
+
+          <!-- Achievement 1 -->
+          <article class="card achievement-card">
+            <div class="achievement-card__marker" aria-hidden="true">&#9670;</div>
+            <div class="achievement-card__content">
+              <h4>LeetCode — 200+ Problems Solved</h4>
+              <p>
+                Actively practicing competitive programming on LeetCode, focusing on
+                arrays, trees, dynamic programming, and graph algorithms.
+              </p>
+            </div>
+          </article>
+
+          <!-- Achievement 2 -->
+          <article class="card achievement-card">
+            <div class="achievement-card__marker" aria-hidden="true">&#9670;</div>
+            <div class="achievement-card__content">
+              <h4>HackerRank — 5-Star Java Badge</h4>
+              <p>
+                Achieved a 5-star rating in Java on HackerRank by solving challenges
+                across data structures, algorithms, and object-oriented programming.
+              </p>
+            </div>
+          </article>
+
+          <!-- Achievement 3 -->
+          <article class="card achievement-card">
+            <div class="achievement-card__marker" aria-hidden="true">&#9670;</div>
+            <div class="achievement-card__content">
+              <h4>Smart India Hackathon — Finalist</h4>
+              <p>
+                Selected as a finalist in the Smart India Hackathon (SIH), developing
+                a solution for a real-world government problem statement.
+              </p>
+            </div>
+          </article>
+
+          <!-- Achievement 4 -->
+          <article class="card achievement-card">
+            <div class="achievement-card__marker" aria-hidden="true">&#9670;</div>
+            <div class="achievement-card__content">
+              <h4>Dean's List — Academic Excellence</h4>
+              <p>
+                Recognized on the Dean's List for maintaining a high CGPA throughout
+                the first two semesters of the B.Tech program.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         9. CONTACT
+         ============================================================ -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <h2 class="section__title">Contact</h2>
+        <div class="section__line"></div>
+        <p class="section__subtitle">Feel free to reach out — I'd love to connect!</p>
+
+        <div class="contact__grid">
+
+          <!-- Email -->
+          <div class="contact-item">
+            <div class="contact-item__icon" aria-hidden="true">@</div>
+            <p class="contact-item__label">Email</p>
+            <p class="contact-item__value">
+              <a href="mailto:sachman@email.com">sachman@email.com</a>
+            </p>
+          </div>
+
+          <!-- Phone -->
+          <div class="contact-item">
+            <div class="contact-item__icon" aria-hidden="true">&#9742;</div>
+            <p class="contact-item__label">Phone</p>
+            <p class="contact-item__value">
+              <a href="tel:+91XXXXXXXXXX">+91 XXXXXXXXXX</a>
+            </p>
+          </div>
+
+          <!-- LinkedIn -->
+          <div class="contact-item">
+            <div class="contact-item__icon" aria-hidden="true">in</div>
+            <p class="contact-item__label">LinkedIn</p>
+            <p class="contact-item__value">
+              <a href="https://linkedin.com/in/sachmansingh" target="_blank" rel="noopener">
+                linkedin.com/in/sachmansingh
+              </a>
+            </p>
+          </div>
+
+          <!-- GitHub -->
+          <div class="contact-item">
+            <div class="contact-item__icon" aria-hidden="true">&lt;/&gt;</div>
+            <p class="contact-item__label">GitHub</p>
+            <p class="contact-item__value">
+              <a href="https://github.com/sachmansingh" target="_blank" rel="noopener">
+                github.com/sachmansingh
+              </a>
+            </p>
+          </div>
+
+          <!-- Location -->
+          <div class="contact-item">
+            <div class="contact-item__icon" aria-hidden="true">&#9906;</div>
+            <p class="contact-item__label">Location</p>
+            <p class="contact-item__value">India</p>
+          </div>
+
+          <!-- Portfolio -->
+          <div class="contact-item">
+            <div class="contact-item__icon" aria-hidden="true">&#9737;</div>
+            <p class="contact-item__label">Portfolio</p>
+            <p class="contact-item__value">
+              <a href="#top">sachmansingh.dev</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ============================================================
+       10. FOOTER
+       ============================================================ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+
+      <!-- Social Links -->
+      <nav class="footer__social" aria-label="Social links">
+        <a href="https://github.com/sachmansingh" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/sachmansingh" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:sachman@email.com">Email</a>
+      </nav>
+
+      <!-- Copyright -->
+      <p class="footer__copy">&copy; 2026 Sachman Singh. All rights reserved.</p>
+
+      <!-- Back-to-top (anchor link, no JS) -->
+      <a href="#top" class="footer__top">&uarr; Back to Top</a>
+    </div>
+  </footer>
+
+</body>
+</html>
